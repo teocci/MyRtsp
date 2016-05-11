@@ -1,0 +1,111 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* D:\Teocci\android-cam-rtsp\libRtsp\ => app\src\main\java\
+* D:\Teocci\android-cam-rtsp\libRtsp\.gradle\2.10\taskArtifacts\cache.properties => app\src\main\resources\.gradle\2.10\taskArtifacts\cache.properties
+* D:\Teocci\android-cam-rtsp\libRtsp\.gradle\2.10\taskArtifacts\cache.properties.lock => app\src\main\resources\.gradle\2.10\taskArtifacts\cache.properties.lock
+* D:\Teocci\android-cam-rtsp\libRtsp\.gradle\2.10\taskArtifacts\fileHashes.bin => app\src\main\resources\.gradle\2.10\taskArtifacts\fileHashes.bin
+* D:\Teocci\android-cam-rtsp\libRtsp\.gradle\2.10\taskArtifacts\fileSnapshots.bin => app\src\main\resources\.gradle\2.10\taskArtifacts\fileSnapshots.bin
+* D:\Teocci\android-cam-rtsp\libRtsp\.gradle\2.10\taskArtifacts\outputFileStates.bin => app\src\main\resources\.gradle\2.10\taskArtifacts\outputFileStates.bin
+* D:\Teocci\android-cam-rtsp\libRtsp\.gradle\2.10\taskArtifacts\taskArtifacts.bin => app\src\main\resources\.gradle\2.10\taskArtifacts\taskArtifacts.bin
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\.name => app\src\main\resources\.idea\.name
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\compiler.xml => app\src\main\resources\.idea\compiler.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\copyright\profiles_settings.xml => app\src\main\resources\.idea\copyright\profiles_settings.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\encodings.xml => app\src\main\resources\.idea\encodings.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\gradle.xml => app\src\main\resources\.idea\gradle.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\libraries\exoplayer_r1_3_3.xml => app\src\main\resources\.idea\libraries\exoplayer_r1_3_3.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\libraries\support_annotations_21_0_3.xml => app\src\main\resources\.idea\libraries\support_annotations_21_0_3.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\libraries\support_v4_21_0_3.xml => app\src\main\resources\.idea\libraries\support_v4_21_0_3.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\misc.xml => app\src\main\resources\.idea\misc.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\modules.xml => app\src\main\resources\.idea\modules.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\runConfigurations.xml => app\src\main\resources\.idea\runConfigurations.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\.idea\workspace.xml => app\src\main\resources\.idea\workspace.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\app.iml => app\src\main\resources\app\app.iml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build.gradle => app\src\main\resources\app\build.gradle
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\blame\res\debug\multi\values-v11.json => app\src\main\resources\app\build\intermediates\blame\res\debug\multi\values-v11.json
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\blame\res\debug\multi\values-v14.json => app\src\main\resources\app\build\intermediates\blame\res\debug\multi\values-v14.json
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\blame\res\debug\multi\values.json => app\src\main\resources\app\build\intermediates\blame\res\debug\multi\values.json
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\blame\res\debug\single\drawable-hdpi-v4.json => app\src\main\resources\app\build\intermediates\blame\res\debug\single\drawable-hdpi-v4.json
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\blame\res\debug\single\drawable-mdpi-v4.json => app\src\main\resources\app\build\intermediates\blame\res\debug\single\drawable-mdpi-v4.json
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\blame\res\debug\single\drawable-xhdpi-v4.json => app\src\main\resources\app\build\intermediates\blame\res\debug\single\drawable-xhdpi-v4.json
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\bundles\debug\aapt\AndroidManifest.xml => app\src\main\resources\app\build\intermediates\bundles\debug\aapt\AndroidManifest.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\bundles\debug\AndroidManifest.xml => app\src\main\resources\app\build\intermediates\bundles\debug\AndroidManifest.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\bundles\debug\R.txt => app\src\main\resources\app\build\intermediates\bundles\debug\R.txt
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\aidl\android\support\v4\app\INotificationSideChannel.aidl => app\src\main\aidl\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\aidl\android\support\v4\app\INotificationSideChannel.aidl
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml => app\src\main\resources\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.3.3\aapt\AndroidManifest.xml => app\src\main\resources\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.3.3\aapt\AndroidManifest.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.3.3\AndroidManifest.xml => app\src\main\resources\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.3.3\AndroidManifest.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\incremental-safeguard\debug\tag.txt => app\src\main\resources\app\build\intermediates\incremental-safeguard\debug\tag.txt
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\incremental\compileDebugAidl\dependency.store => app\src\main\resources\app\build\intermediates\incremental\compileDebugAidl\dependency.store
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\incremental\compileDebugAndroidTestAidl\dependency.store => app\src\main\resources\app\build\intermediates\incremental\compileDebugAndroidTestAidl\dependency.store
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\incremental\mergeDebugAssets\merger.xml => app\src\main\resources\app\build\intermediates\incremental\mergeDebugAssets\merger.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\incremental\mergeDebugResources\merger.xml => app\src\main\resources\app\build\intermediates\incremental\mergeDebugResources\merger.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\incremental\mergeDebugShaders\merger.xml => app\src\main\resources\app\build\intermediates\incremental\mergeDebugShaders\merger.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\ic_launcher.png => app\src\main\resources\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\ic_launcher.png
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\ic_launcher.png => app\src\main\resources\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\ic_launcher.png
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\ic_launcher.png => app\src\main\resources\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\ic_launcher.png
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\res\merged\debug\values-v11\values-v11.xml => app\src\main\resources\app\build\intermediates\res\merged\debug\values-v11\values-v11.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\res\merged\debug\values-v14\values-v14.xml => app\src\main\resources\app\build\intermediates\res\merged\debug\values-v14\values-v14.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\build\intermediates\res\merged\debug\values\values.xml => app\src\main\resources\app\build\intermediates\res\merged\debug\values\values.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\lint.xml => app\src\main\resources\app\lint.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\src\main\AndroidManifest.xml => app\src\main\resources\app\src\main\AndroidManifest.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\src\main\res\drawable-hdpi\ic_launcher.png => app\src\main\resources\app\src\main\res\drawable-hdpi\ic_launcher.png
+* D:\Teocci\android-cam-rtsp\libRtsp\app\src\main\res\drawable-mdpi\ic_launcher.png => app\src\main\resources\app\src\main\res\drawable-mdpi\ic_launcher.png
+* D:\Teocci\android-cam-rtsp\libRtsp\app\src\main\res\drawable-xhdpi\ic_launcher.png => app\src\main\resources\app\src\main\res\drawable-xhdpi\ic_launcher.png
+* D:\Teocci\android-cam-rtsp\libRtsp\app\src\main\res\values-v11\styles.xml => app\src\main\resources\app\src\main\res\values-v11\styles.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\src\main\res\values-v14\styles.xml => app\src\main\resources\app\src\main\res\values-v14\styles.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\src\main\res\values\strings.xml => app\src\main\resources\app\src\main\res\values\strings.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\app\src\main\res\values\styles.xml => app\src\main\resources\app\src\main\res\values\styles.xml
+* D:\Teocci\android-cam-rtsp\libRtsp\build.gradle => app\src\main\resources\build.gradle
+* D:\Teocci\android-cam-rtsp\libRtsp\gradle\wrapper\gradle-wrapper.properties => app\src\main\resources\gradle\wrapper\gradle-wrapper.properties
+* D:\Teocci\android-cam-rtsp\libRtsp\gradlew => app\src\main\resources\gradlew
+* D:\Teocci\android-cam-rtsp\libRtsp\gradlew.bat => app\src\main\resources\gradlew.bat
+* D:\Teocci\android-cam-rtsp\libRtsp\import-summary.txt => app\src\main\resources\import-summary.txt
+* D:\Teocci\android-cam-rtsp\libRtsp\libRtsp.iml => app\src\main\resources\libRtsp.iml
+* D:\Teocci\android-cam-rtsp\libRtsp\local.properties => app\src\main\resources\local.properties
+* D:\Teocci\android-cam-rtsp\libRtsp\settings.gradle => app\src\main\resources\settings.gradle
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
